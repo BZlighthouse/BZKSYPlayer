@@ -2,15 +2,15 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BZKSYPlayer'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of BZKSYPlayer.'
+  s.version          = '0.1.1'
+  s.summary          = '测试金山云播放器.'
 
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/BZKSYPlayer'
+  s.homepage         = 'https://github.com/BZlighthouse/BZKSYPlayer'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'BZlighthouse' => '282066546@qq.com' }
   s.source           = { :git => '/Users/zhoubing/Desktop/BZKSYPlayer/BZKSYPlayer', :tag => s.version.to_s }
