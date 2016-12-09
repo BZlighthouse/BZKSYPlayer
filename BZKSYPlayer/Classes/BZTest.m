@@ -7,10 +7,12 @@
 //
 
 #import "BZTest.h"
+#import "KSYMediaPlayer.framework/Headers/KSYMediaPlayer.h"
 
 @implementation BZTest
 + (void)test
 {
-    NSLog(@"你大爷");
+    KSYMoviePlayerController *KSYVC = [[KSYMoviePlayerController alloc] initWithContentURL:[NSURL URLWithString:@"www.baidu.com"]];
+    NSLog(@"你大爷 %@", KSYVC);
 }
 @end

@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AFAA11CB8FDC388ACC745394B6CA7F3 /* BZKSYPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0E6DFFE9E87DDE8C2B943F36114228 /* BZKSYPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1554262472C688651F5A910F934B6432 /* BZTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AEAA6FAFF9E179D4E750AA931537D62 /* BZTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		003F447C3AC2CAE97D75046D4F22CFFF /* BZKSYPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B2ED0E7EBA14C7A5740E8AAF7A7FFD /* BZKSYPlayer-dummy.m */; };
 		291F2F8524041521C88CB54B94A034EF /* Pods-BZKSYPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 629924EC58E67EC58F763B35C9B132BC /* Pods-BZKSYPlayer_Example-dummy.m */; };
-		48ED830FB5ADD6B54FFDB90FF84915A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		485DA14F364B72BDC37D830F4ABC0A7A /* BZKSYPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8DB8AAD98960F2B90AB58FE96538D07 /* BZKSYPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		642CE3832162C318B3C141B24EB9D79F /* BZKSYPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F9EFF31772CBCF152699ECDFA4C0BBC4 /* BZKSYPlayer.bundle */; };
 		67B33DB1970644F9356BA45BF09CA589 /* Pods-BZKSYPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB51C792BAD7800D77BC636AEEF77E /* Pods-BZKSYPlayer_Tests-dummy.m */; };
+		71ECE377A282A2B1356456060747DF88 /* 贡献榜.png in Resources */ = {isa = PBXBuildFile; fileRef = 084BB2B9E1924ED5195797B4D62579BA /* 贡献榜.png */; };
 		75BD6C515DB6F71C7443404537DC72CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		9D0D5679D40E59FEEB8C9AF8F3C5872B /* Pods-BZKSYPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 557CE93B32BA23BD96722B33FBE4255A /* Pods-BZKSYPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0269836053237FA0A91F5C5110A783B /* BZTest.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1303F57863D6BF60BF5FC33A89547B /* BZTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B42A2B9B41BDEF6B8679C3FFE45B6278 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		BA1CC8E9BE34B8DC65D6D54A30B48124 /* Pods-BZKSYPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A030E0CE3A02A89F934A5EF4BEA181A /* Pods-BZKSYPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F19B79F3F81284CD0AF8752885F5A866 /* BZTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 348283CA77A5C710EA5DB03AB2C969D2 /* BZTest.m */; };
-		F553B00BF241CB2CF6BCC89D3300A8D8 /* BZKSYPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B8B97208A1DB887D442DAEAF397FF7 /* BZKSYPlayer-dummy.m */; };
 		F88623AC8C3C77509800FA3FEB8E96CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FB3462ACE46D81244BAAEE573746EF0F /* BZTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E7EFBC9EBC005C6E6237BD58E18D21 /* BZTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,53 +27,63 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3BB826EA24368578B3F734B6599EEA0F;
+			remoteGlobalIDString = 02D3B1353337586FD581D20EF6CA0837;
 			remoteInfo = BZKSYPlayer;
+		};
+		A9245675BA99F2432181CF1465907C15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 264525CB2E6298A398E3B08F9FD1C398;
+			remoteInfo = "BZKSYPlayer-BZKSYPlayer";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D3B063F9B351C9C3E025A4B6F7F859A /* Pods_BZKSYPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BZKSYPlayer_Tests.framework; path = "Pods-BZKSYPlayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		084BB2B9E1924ED5195797B4D62579BA /* 贡献榜.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "贡献榜.png"; sourceTree = "<group>"; };
 		1F431256D942F1A5A3525841EF58AE67 /* Pods-BZKSYPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BZKSYPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		221BAAA768AA5D3AE0A6E0118A432F14 /* BZKSYPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BZKSYPlayer.xcconfig; sourceTree = "<group>"; };
+		204D6798756032D68F5EF6686DC412B2 /* ResourceBundle-BZKSYPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BZKSYPlayer-Info.plist"; sourceTree = "<group>"; };
+		25B2ED0E7EBA14C7A5740E8AAF7A7FFD /* BZKSYPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BZKSYPlayer-dummy.m"; sourceTree = "<group>"; };
 		25BD7506FD5739A700F06F7A7CF0B029 /* Pods-BZKSYPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BZKSYPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		27282DAD876D127FE7B7576FD515E1D6 /* Pods-BZKSYPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BZKSYPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2E5C20AD46769EB922BDFE44977A4481 /* Pods-BZKSYPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BZKSYPlayer_Tests.modulemap"; sourceTree = "<group>"; };
-		348283CA77A5C710EA5DB03AB2C969D2 /* BZTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BZTest.m; sourceTree = "<group>"; };
+		347C9F2BB903ADD885BD97373B12D995 /* BZKSYPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BZKSYPlayer.modulemap; sourceTree = "<group>"; };
 		36DF8D9827B6B82B7820B703F9111978 /* Pods-BZKSYPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BZKSYPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3B28593E3D775721983A04D328210BEB /* Pods_BZKSYPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BZKSYPlayer_Example.framework; path = "Pods-BZKSYPlayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3725D90A64D7A9D7611AAEA645640803 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B37A9F2827A7678421E709068B156D6 /* Pods-BZKSYPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BZKSYPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		40428B9D19A173AD714B67D4CD987095 /* Pods_BZKSYPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BZKSYPlayer_Example.framework; path = "Pods-BZKSYPlayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48093F6838BFE5C7F05B40BBFC8599D7 /* Pods-BZKSYPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BZKSYPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		557CE93B32BA23BD96722B33FBE4255A /* Pods-BZKSYPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BZKSYPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
-		57EDECE9F2E07B62DF1F3ECAC2823A6D /* BZKSYPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BZKSYPlayer-prefix.pch"; sourceTree = "<group>"; };
 		59E9B25B04D1BCEF75BA2028EB4C15B1 /* Pods-BZKSYPlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BZKSYPlayer_Example-resources.sh"; sourceTree = "<group>"; };
-		5D0212339C61953D4DE735D8C6CBF04C /* BZKSYPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BZKSYPlayer.modulemap; sourceTree = "<group>"; };
 		629924EC58E67EC58F763B35C9B132BC /* Pods-BZKSYPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BZKSYPlayer_Example-dummy.m"; sourceTree = "<group>"; };
 		6504876BAEA24941737AF5B81E0BD6D6 /* Pods-BZKSYPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BZKSYPlayer_Example.modulemap"; sourceTree = "<group>"; };
+		6BA6C8127BC0D9DD1D793C8F608866F6 /* Pods_BZKSYPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BZKSYPlayer_Tests.framework; path = "Pods-BZKSYPlayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB3BDEFB4093E595C2786CCE5BBAEEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73B8B97208A1DB887D442DAEAF397FF7 /* BZKSYPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BZKSYPlayer-dummy.m"; sourceTree = "<group>"; };
+		71E7EFBC9EBC005C6E6237BD58E18D21 /* BZTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BZTest.m; sourceTree = "<group>"; };
 		78D0201038E6569E548E704E57D38BDF /* Pods-BZKSYPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BZKSYPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8A030E0CE3A02A89F934A5EF4BEA181A /* Pods-BZKSYPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BZKSYPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		8CE78358FBD627BBFAB268CBFF68BCCA /* BZKSYPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BZKSYPlayer-prefix.pch"; sourceTree = "<group>"; };
 		9149FC6F43059301CECEF15E25723C30 /* Pods-BZKSYPlayer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BZKSYPlayer_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		91D657048E54F5EED63C63FE97319258 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9AEAA6FAFF9E179D4E750AA931537D62 /* BZTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BZTest.h; sourceTree = "<group>"; };
-		9D9BCA4883428BB23B0AD28A1DE5BAA8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1303F57863D6BF60BF5FC33A89547B /* BZTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BZTest.h; sourceTree = "<group>"; };
+		C38B147225528EA5882D61458CE67C04 /* KSYMediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KSYMediaPlayer.framework; path = BZKSYPlayer/Classes/KSYMediaPlayer.framework; sourceTree = "<group>"; };
 		CAFB51C792BAD7800D77BC636AEEF77E /* Pods-BZKSYPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BZKSYPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CC0E6DFFE9E87DDE8C2B943F36114228 /* BZKSYPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BZKSYPlayer-umbrella.h"; sourceTree = "<group>"; };
 		D233189A168842BB448D18A01AD4FF80 /* Pods-BZKSYPlayer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BZKSYPlayer_Tests-resources.sh"; sourceTree = "<group>"; };
-		E34626F9A66A7A4E1E2D763346CD33D1 /* BZKSYPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BZKSYPlayer.framework; path = BZKSYPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38F1DD9BC2421BC8BFC5691BC6EF6F5 /* Pods-BZKSYPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BZKSYPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EAE909DAE290B26EC9654D102FB71310 /* Pods-BZKSYPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BZKSYPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EFF3143F251EF1F3FFAA480CE27FFBE4 /* BZKSYPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BZKSYPlayer.framework; path = BZKSYPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35718FB7E02667150AA2A8A1485429F /* BZKSYPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BZKSYPlayer.xcconfig; sourceTree = "<group>"; };
+		F8DB8AAD98960F2B90AB58FE96538D07 /* BZKSYPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BZKSYPlayer-umbrella.h"; sourceTree = "<group>"; };
+		F9EFF31772CBCF152699ECDFA4C0BBC4 /* BZKSYPlayer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BZKSYPlayer.bundle; path = BZKSYPlayer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2403ADEE9BE8093ACE8EF33D0E1054FA /* Frameworks */ = {
+		16FF75F5462E6671D6CD43303159F986 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48ED830FB5ADD6B54FFDB90FF84915A4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,9 +103,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FE68278EFA37550DB701D224F84E2783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42A2B9B41BDEF6B8679C3FFE45B6278 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10B1105D10B7D7DCDA677C018C1F9CF5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6532BD981771F719D28E94165F118A1 /* BZKSYPlayer */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		19AF9F3B2EB80010D1D1AE8F79BA2124 /* Pods-BZKSYPlayer_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,15 +138,6 @@
 			);
 			name = "Pods-BZKSYPlayer_Example";
 			path = "Target Support Files/Pods-BZKSYPlayer_Example";
-			sourceTree = "<group>";
-		};
-		26F1ABCCF5A114EBB2ED7A440D113381 /* BZKSYPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				DEC488930A01435210C8AC6588B63F14 /* Classes */,
-			);
-			name = BZKSYPlayer;
-			path = BZKSYPlayer;
 			sourceTree = "<group>";
 		};
 		2EF5BD20D012CE86FDF302BE0FF69503 /* Pods-BZKSYPlayer_Tests */ = {
@@ -139,14 +158,21 @@
 			path = "Target Support Files/Pods-BZKSYPlayer_Tests";
 			sourceTree = "<group>";
 		};
-		60CC8B24DF1CE839B5DDDEE07DA324E4 /* Products */ = {
+		376DC4E7A95F0591C400844BBDB7C279 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				E34626F9A66A7A4E1E2D763346CD33D1 /* BZKSYPlayer.framework */,
-				3B28593E3D775721983A04D328210BEB /* Pods_BZKSYPlayer_Example.framework */,
-				1D3B063F9B351C9C3E025A4B6F7F859A /* Pods_BZKSYPlayer_Tests.framework */,
+				084BB2B9E1924ED5195797B4D62579BA /* 贡献榜.png */,
 			);
-			name = Products;
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		64B2E7CF11F54B2FA6ECAF67FFA23536 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6126D22246AC7A18A040DDBD3207A0F /* BZKSYPlayer */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -161,35 +187,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				EF89043AB4DAA3386EDEE1B11549E872 /* Development Pods */,
+				64B2E7CF11F54B2FA6ECAF67FFA23536 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				60CC8B24DF1CE839B5DDDEE07DA324E4 /* Products */,
+				BAB9BEC5882B45E709AA960A7C46450C /* Products */,
 				985C13E17F2C31D88D5BB7E054648767 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		83211B515B15CB337B0A7F9DF033D1E1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5D0212339C61953D4DE735D8C6CBF04C /* BZKSYPlayer.modulemap */,
-				221BAAA768AA5D3AE0A6E0118A432F14 /* BZKSYPlayer.xcconfig */,
-				73B8B97208A1DB887D442DAEAF397FF7 /* BZKSYPlayer-dummy.m */,
-				57EDECE9F2E07B62DF1F3ECAC2823A6D /* BZKSYPlayer-prefix.pch */,
-				CC0E6DFFE9E87DDE8C2B943F36114228 /* BZKSYPlayer-umbrella.h */,
-				9D9BCA4883428BB23B0AD28A1DE5BAA8 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BZKSYPlayer";
-			sourceTree = "<group>";
-		};
-		956DF0B1DBE2C58571975E988E91BD9D /* BZKSYPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				26F1ABCCF5A114EBB2ED7A440D113381 /* BZKSYPlayer */,
-				83211B515B15CB337B0A7F9DF033D1E1 /* Support Files */,
-			);
-			name = BZKSYPlayer;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		985C13E17F2C31D88D5BB7E054648767 /* Targets Support Files */ = {
@@ -201,6 +203,53 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		9D046E88421EC6C8178706B92F0C3341 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C38B147225528EA5882D61458CE67C04 /* KSYMediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6532BD981771F719D28E94165F118A1 /* BZKSYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				376DC4E7A95F0591C400844BBDB7C279 /* Assets */,
+			);
+			name = BZKSYPlayer;
+			path = BZKSYPlayer;
+			sourceTree = "<group>";
+		};
+		A66AD36261C104D95CA66D0AF609B4EB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AE1303F57863D6BF60BF5FC33A89547B /* BZTest.h */,
+				71E7EFBC9EBC005C6E6237BD58E18D21 /* BZTest.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B34503F06E16486E96C260FCD79D1DD9 /* BZKSYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A66AD36261C104D95CA66D0AF609B4EB /* Classes */,
+			);
+			name = BZKSYPlayer;
+			path = BZKSYPlayer;
+			sourceTree = "<group>";
+		};
+		BAB9BEC5882B45E709AA960A7C46450C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9EFF31772CBCF152699ECDFA4C0BBC4 /* BZKSYPlayer.bundle */,
+				EFF3143F251EF1F3FFAA480CE27FFBE4 /* BZKSYPlayer.framework */,
+				40428B9D19A173AD714B67D4CD987095 /* Pods_BZKSYPlayer_Example.framework */,
+				6BA6C8127BC0D9DD1D793C8F608866F6 /* Pods_BZKSYPlayer_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,22 +258,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DEC488930A01435210C8AC6588B63F14 /* Classes */ = {
+		C8EA911305001C9F7A92661DADE3FE20 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9AEAA6FAFF9E179D4E750AA931537D62 /* BZTest.h */,
-				348283CA77A5C710EA5DB03AB2C969D2 /* BZTest.m */,
+				347C9F2BB903ADD885BD97373B12D995 /* BZKSYPlayer.modulemap */,
+				F35718FB7E02667150AA2A8A1485429F /* BZKSYPlayer.xcconfig */,
+				25B2ED0E7EBA14C7A5740E8AAF7A7FFD /* BZKSYPlayer-dummy.m */,
+				8CE78358FBD627BBFAB268CBFF68BCCA /* BZKSYPlayer-prefix.pch */,
+				F8DB8AAD98960F2B90AB58FE96538D07 /* BZKSYPlayer-umbrella.h */,
+				3725D90A64D7A9D7611AAEA645640803 /* Info.plist */,
+				204D6798756032D68F5EF6686DC412B2 /* ResourceBundle-BZKSYPlayer-Info.plist */,
 			);
-			name = Classes;
-			path = Classes;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BZKSYPlayer";
 			sourceTree = "<group>";
 		};
-		EF89043AB4DAA3386EDEE1B11549E872 /* Development Pods */ = {
+		D6126D22246AC7A18A040DDBD3207A0F /* BZKSYPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				956DF0B1DBE2C58571975E988E91BD9D /* BZKSYPlayer */,
+				B34503F06E16486E96C260FCD79D1DD9 /* BZKSYPlayer */,
+				9D046E88421EC6C8178706B92F0C3341 /* Frameworks */,
+				10B1105D10B7D7DCDA677C018C1F9CF5 /* Resources */,
+				C8EA911305001C9F7A92661DADE3FE20 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = BZKSYPlayer;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,12 +296,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCAAF365984D31C2D82F9BA3CD1ADD73 /* Headers */ = {
+		9354BC2872CB875F85A7929A238B7E7D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AFAA11CB8FDC388ACC745394B6CA7F3 /* BZKSYPlayer-umbrella.h in Headers */,
-				1554262472C688651F5A910F934B6432 /* BZTest.h in Headers */,
+				485DA14F364B72BDC37D830F4ABC0A7A /* BZKSYPlayer-umbrella.h in Headers */,
+				B0269836053237FA0A91F5C5110A783B /* BZTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,22 +316,41 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3BB826EA24368578B3F734B6599EEA0F /* BZKSYPlayer */ = {
+		02D3B1353337586FD581D20EF6CA0837 /* BZKSYPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 243CAAD7067AE314293F4A10610B3C45 /* Build configuration list for PBXNativeTarget "BZKSYPlayer" */;
+			buildConfigurationList = 58C93251B33C4A2019D56161EC44EDCB /* Build configuration list for PBXNativeTarget "BZKSYPlayer" */;
 			buildPhases = (
-				8C23F854A1FC4481F6C118681B049993 /* Sources */,
-				2403ADEE9BE8093ACE8EF33D0E1054FA /* Frameworks */,
-				CCAAF365984D31C2D82F9BA3CD1ADD73 /* Headers */,
+				9882A164F53D9BE29BA21BEBEF8DF44F /* Sources */,
+				FE68278EFA37550DB701D224F84E2783 /* Frameworks */,
+				92EE0CE5057CBEA43119F8C601674E7E /* Resources */,
+				9354BC2872CB875F85A7929A238B7E7D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E68C0239273322ED004F0F88BF1A82B /* PBXTargetDependency */,
+			);
+			name = BZKSYPlayer;
+			productName = BZKSYPlayer;
+			productReference = EFF3143F251EF1F3FFAA480CE27FFBE4 /* BZKSYPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		264525CB2E6298A398E3B08F9FD1C398 /* BZKSYPlayer-BZKSYPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F4F95ACAF58BE066827E9505833377B /* Build configuration list for PBXNativeTarget "BZKSYPlayer-BZKSYPlayer" */;
+			buildPhases = (
+				94ED09F6F468810E1B777B899D1BAE07 /* Sources */,
+				16FF75F5462E6671D6CD43303159F986 /* Frameworks */,
+				18F500DCF155115D4588A846C78463F5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BZKSYPlayer;
-			productName = BZKSYPlayer;
-			productReference = E34626F9A66A7A4E1E2D763346CD33D1 /* BZKSYPlayer.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "BZKSYPlayer-BZKSYPlayer";
+			productName = "BZKSYPlayer-BZKSYPlayer";
+			productReference = F9EFF31772CBCF152699ECDFA4C0BBC4 /* BZKSYPlayer.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		E8DDC1668B46F8AA2F9714393544557F /* Pods-BZKSYPlayer_Tests */ = {
 			isa = PBXNativeTarget;
@@ -289,7 +366,7 @@
 			);
 			name = "Pods-BZKSYPlayer_Tests";
 			productName = "Pods-BZKSYPlayer_Tests";
-			productReference = 1D3B063F9B351C9C3E025A4B6F7F859A /* Pods_BZKSYPlayer_Tests.framework */;
+			productReference = 6BA6C8127BC0D9DD1D793C8F608866F6 /* Pods_BZKSYPlayer_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F0B46D15E89AC5B233ECFB71A88E5783 /* Pods-BZKSYPlayer_Example */ = {
@@ -307,7 +384,7 @@
 			);
 			name = "Pods-BZKSYPlayer_Example";
 			productName = "Pods-BZKSYPlayer_Example";
-			productReference = 3B28593E3D775721983A04D328210BEB /* Pods_BZKSYPlayer_Example.framework */;
+			productReference = 40428B9D19A173AD714B67D4CD987095 /* Pods_BZKSYPlayer_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,16 +404,36 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 60CC8B24DF1CE839B5DDDEE07DA324E4 /* Products */;
+			productRefGroup = BAB9BEC5882B45E709AA960A7C46450C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BB826EA24368578B3F734B6599EEA0F /* BZKSYPlayer */,
+				02D3B1353337586FD581D20EF6CA0837 /* BZKSYPlayer */,
+				264525CB2E6298A398E3B08F9FD1C398 /* BZKSYPlayer-BZKSYPlayer */,
 				F0B46D15E89AC5B233ECFB71A88E5783 /* Pods-BZKSYPlayer_Example */,
 				E8DDC1668B46F8AA2F9714393544557F /* Pods-BZKSYPlayer_Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F500DCF155115D4588A846C78463F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71ECE377A282A2B1356456060747DF88 /* 贡献榜.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EE0CE5057CBEA43119F8C601674E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642CE3832162C318B3C141B24EB9D79F /* BZKSYPlayer.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6F01686407FD0A780CE79D4C0E098389 /* Sources */ = {
@@ -347,12 +444,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C23F854A1FC4481F6C118681B049993 /* Sources */ = {
+		94ED09F6F468810E1B777B899D1BAE07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F553B00BF241CB2CF6BCC89D3300A8D8 /* BZKSYPlayer-dummy.m in Sources */,
-				F19B79F3F81284CD0AF8752885F5A866 /* BZTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9882A164F53D9BE29BA21BEBEF8DF44F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003F447C3AC2CAE97D75046D4F22CFFF /* BZKSYPlayer-dummy.m in Sources */,
+				FB3462ACE46D81244BAAEE573746EF0F /* BZTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,227 +471,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3E68C0239273322ED004F0F88BF1A82B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BZKSYPlayer-BZKSYPlayer";
+			target = 264525CB2E6298A398E3B08F9FD1C398 /* BZKSYPlayer-BZKSYPlayer */;
+			targetProxy = A9245675BA99F2432181CF1465907C15 /* PBXContainerItemProxy */;
+		};
 		78CE6D01BA7C1ACA732FDBC6B7641343 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BZKSYPlayer;
-			target = 3BB826EA24368578B3F734B6599EEA0F /* BZKSYPlayer */;
+			target = 02D3B1353337586FD581D20EF6CA0837 /* BZKSYPlayer */;
 			targetProxy = 864DC6A6D4658EC521648730DB165E92 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2F50DE2D1071AE97FF5CB550049BE00C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 221BAAA768AA5D3AE0A6E0118A432F14 /* BZKSYPlayer.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BZKSYPlayer/BZKSYPlayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BZKSYPlayer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BZKSYPlayer/BZKSYPlayer.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = BZKSYPlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3452BDC578F3E6650E443DCEFB6A0101 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B37A9F2827A7678421E709068B156D6 /* Pods-BZKSYPlayer_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BZKSYPlayer_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BZKSYPlayer_Example/Pods-BZKSYPlayer_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_BZKSYPlayer_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4BC7E9EF5CE556143448DDA78A3D2712 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36DF8D9827B6B82B7820B703F9111978 /* Pods-BZKSYPlayer_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BZKSYPlayer_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BZKSYPlayer_Example/Pods-BZKSYPlayer_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_BZKSYPlayer_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6CB21FADC984861F9DC0DA393490C034 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25BD7506FD5739A700F06F7A7CF0B029 /* Pods-BZKSYPlayer_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BZKSYPlayer_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BZKSYPlayer_Tests/Pods-BZKSYPlayer_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_BZKSYPlayer_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		75BB25D5CEDB64313F53117BB63AF829 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78D0201038E6569E548E704E57D38BDF /* Pods-BZKSYPlayer_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BZKSYPlayer_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BZKSYPlayer_Tests/Pods-BZKSYPlayer_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_BZKSYPlayer_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -623,7 +522,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -631,9 +530,9 @@
 			};
 			name = Debug;
 		};
-		F1C56C1BD7608CEBB2A61EFDCE46C923 /* Release */ = {
+		27808381597D127FE1605FD24ECB560E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 221BAAA768AA5D3AE0A6E0118A432F14 /* BZKSYPlayer.xcconfig */;
+			baseConfigurationReference = F35718FB7E02667150AA2A8A1485429F /* BZKSYPlayer.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -662,23 +561,259 @@
 			};
 			name = Release;
 		};
+		3BB9900EE1C74D520E1CAA4F10AFD241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B37A9F2827A7678421E709068B156D6 /* Pods-BZKSYPlayer_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BZKSYPlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BZKSYPlayer_Example/Pods-BZKSYPlayer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BZKSYPlayer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46F914E6DBBCD7B3F0C72F78172270C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36DF8D9827B6B82B7820B703F9111978 /* Pods-BZKSYPlayer_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BZKSYPlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BZKSYPlayer_Example/Pods-BZKSYPlayer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BZKSYPlayer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50B4885F4C705C8C3D1001DDC4AEB808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35718FB7E02667150AA2A8A1485429F /* BZKSYPlayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BZKSYPlayer/BZKSYPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BZKSYPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BZKSYPlayer/BZKSYPlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BZKSYPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		634606FB49C876B5E2B3845A332B119F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D0201038E6569E548E704E57D38BDF /* Pods-BZKSYPlayer_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BZKSYPlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BZKSYPlayer_Tests/Pods-BZKSYPlayer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BZKSYPlayer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74AF8BBC827E8FB1F2B9DA1D43A70828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35718FB7E02667150AA2A8A1485429F /* BZKSYPlayer.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BZKSYPlayer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/BZKSYPlayer/ResourceBundle-BZKSYPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BZKSYPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		896FF2E00D86AD98C3CCDC59ED9A341B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35718FB7E02667150AA2A8A1485429F /* BZKSYPlayer.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BZKSYPlayer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/BZKSYPlayer/ResourceBundle-BZKSYPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BZKSYPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C6B6EA83F95CD78193E173E1ADF267E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25BD7506FD5739A700F06F7A7CF0B029 /* Pods-BZKSYPlayer_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BZKSYPlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BZKSYPlayer_Tests/Pods-BZKSYPlayer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BZKSYPlayer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		243CAAD7067AE314293F4A10610B3C45 /* Build configuration list for PBXNativeTarget "BZKSYPlayer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2F50DE2D1071AE97FF5CB550049BE00C /* Debug */,
-				F1C56C1BD7608CEBB2A61EFDCE46C923 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
-				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -686,8 +821,17 @@
 		47A06A76D274C8B2806457496EBA2C96 /* Build configuration list for PBXNativeTarget "Pods-BZKSYPlayer_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BC7E9EF5CE556143448DDA78A3D2712 /* Debug */,
-				3452BDC578F3E6650E443DCEFB6A0101 /* Release */,
+				46F914E6DBBCD7B3F0C72F78172270C8 /* Debug */,
+				3BB9900EE1C74D520E1CAA4F10AFD241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58C93251B33C4A2019D56161EC44EDCB /* Build configuration list for PBXNativeTarget "BZKSYPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B4885F4C705C8C3D1001DDC4AEB808 /* Debug */,
+				27808381597D127FE1605FD24ECB560E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -695,8 +839,17 @@
 		5ACD177470C1E51B5A45BF5554569660 /* Build configuration list for PBXNativeTarget "Pods-BZKSYPlayer_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CB21FADC984861F9DC0DA393490C034 /* Debug */,
-				75BB25D5CEDB64313F53117BB63AF829 /* Release */,
+				C6B6EA83F95CD78193E173E1ADF267E1 /* Debug */,
+				634606FB49C876B5E2B3845A332B119F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F4F95ACAF58BE066827E9505833377B /* Build configuration list for PBXNativeTarget "BZKSYPlayer-BZKSYPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896FF2E00D86AD98C3CCDC59ED9A341B /* Debug */,
+				74AF8BBC827E8FB1F2B9DA1D43A70828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
