@@ -1,0 +1,22 @@
+{
+  "name": "BZKSYPlayer",
+  "version": "0.1.0",
+  "summary": "A short description of BZKSYPlayer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/BZKSYPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BZlighthouse": "282066546@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/BZKSYPlayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BZKSYPlayer/Classes/**/*"
+}

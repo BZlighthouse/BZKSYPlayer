@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BZKSYPlayer_Example' do
+  pod 'BZKSYPlayer', :path => '../'
+
+  target 'BZKSYPlayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

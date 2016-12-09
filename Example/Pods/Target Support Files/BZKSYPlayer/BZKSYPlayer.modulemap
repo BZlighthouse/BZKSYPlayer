@@ -1,0 +1,6 @@
+framework module BZKSYPlayer {
+  umbrella header "BZKSYPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
