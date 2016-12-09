@@ -7,50 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		003F447C3AC2CAE97D75046D4F22CFFF /* BZKSYPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B2ED0E7EBA14C7A5740E8AAF7A7FFD /* BZKSYPlayer-dummy.m */; };
+		08CF9CFC049D12DF28E07124489B844C /* 贡献榜.png in Resources */ = {isa = PBXBuildFile; fileRef = 084BB2B9E1924ED5195797B4D62579BA /* 贡献榜.png */; };
+		0B477EB4454F84786FF85C7116C37DFF /* BZKSYPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8DB8AAD98960F2B90AB58FE96538D07 /* BZKSYPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CBBC736C1CADDF0B3FBF330DE878A4D /* BZTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2CAD6B3A8E2438C7E169F55C199DCA /* BZTest.m */; };
 		291F2F8524041521C88CB54B94A034EF /* Pods-BZKSYPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 629924EC58E67EC58F763B35C9B132BC /* Pods-BZKSYPlayer_Example-dummy.m */; };
-		485DA14F364B72BDC37D830F4ABC0A7A /* BZKSYPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8DB8AAD98960F2B90AB58FE96538D07 /* BZKSYPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		642CE3832162C318B3C141B24EB9D79F /* BZKSYPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F9EFF31772CBCF152699ECDFA4C0BBC4 /* BZKSYPlayer.bundle */; };
+		45B77F774CBD60DB16CFB2E258150235 /* BZTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 96721D19549D8BBA35820D8CE8CBD2BF /* BZTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49FB0750272ECB36284A181CD3852434 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4F08F17F910A5FA8FEBD80C1D5BB335D /* BZKSYPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F9EFF31772CBCF152699ECDFA4C0BBC4 /* BZKSYPlayer.bundle */; };
 		67B33DB1970644F9356BA45BF09CA589 /* Pods-BZKSYPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB51C792BAD7800D77BC636AEEF77E /* Pods-BZKSYPlayer_Tests-dummy.m */; };
-		71ECE377A282A2B1356456060747DF88 /* 贡献榜.png in Resources */ = {isa = PBXBuildFile; fileRef = 084BB2B9E1924ED5195797B4D62579BA /* 贡献榜.png */; };
+		71FD1D800D27BB29C5DB54E59D43BDC0 /* KSYMediaInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A97A8FC198BDFC359D108FBD583893B /* KSYMediaInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75BD6C515DB6F71C7443404537DC72CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		80A29C73698150AB55A33EDE7160D89D /* KSYMediaInfoProber.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A62BFBFE53512C96EC4C7B044B9D0C9 /* KSYMediaInfoProber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		878C402751782AA0BF458F555B69DECD /* BZKSYPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B2ED0E7EBA14C7A5740E8AAF7A7FFD /* BZKSYPlayer-dummy.m */; };
+		9CFBEA9D1E1B6E03C926B9A838D3BC02 /* KSYMoviePlayerDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2D9CAEE4F96F2B4F14BAA0D4F98681 /* KSYMoviePlayerDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D0D5679D40E59FEEB8C9AF8F3C5872B /* Pods-BZKSYPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 557CE93B32BA23BD96722B33FBE4255A /* Pods-BZKSYPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0269836053237FA0A91F5C5110A783B /* BZTest.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1303F57863D6BF60BF5FC33A89547B /* BZTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B42A2B9B41BDEF6B8679C3FFE45B6278 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		BA1CC8E9BE34B8DC65D6D54A30B48124 /* Pods-BZKSYPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A030E0CE3A02A89F934A5EF4BEA181A /* Pods-BZKSYPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE00589AE8F3979691FA568E3E6C25CD /* KSYQosInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B4276786AD11D867DC42183194EF94A7 /* KSYQosInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF4205C6B1B8067609D5F51286D8381B /* KSYMediaPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D10B3D56E3A4118580E7DBF1B5D1B8 /* KSYMediaPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3649D9B70F642402B9F2C5FA60DF39C /* KSYMoviePlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1839C61FA3D4BFDD6A6FAD8D51AF0479 /* KSYMoviePlayerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3AF6196E093BA59B64CF64BB8DAC3C8 /* KSYMediaPlayback.h in Headers */ = {isa = PBXBuildFile; fileRef = A6EEFD69E12A7EB10C879385C752C964 /* KSYMediaPlayback.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F88623AC8C3C77509800FA3FEB8E96CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		FB3462ACE46D81244BAAEE573746EF0F /* BZTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E7EFBC9EBC005C6E6237BD58E18D21 /* BZTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		05F5CDF3790D8535A7644B6A46CB01B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24F5CB952BC3FC25FBBCE0C8E09DAD9;
+			remoteInfo = "BZKSYPlayer-BZKSYPlayer";
+		};
 		864DC6A6D4658EC521648730DB165E92 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 02D3B1353337586FD581D20EF6CA0837;
+			remoteGlobalIDString = 7F3014265A9B7FEFD8CA21FEC8C8088C;
 			remoteInfo = BZKSYPlayer;
-		};
-		A9245675BA99F2432181CF1465907C15 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 264525CB2E6298A398E3B08F9FD1C398;
-			remoteInfo = "BZKSYPlayer-BZKSYPlayer";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		084BB2B9E1924ED5195797B4D62579BA /* 贡献榜.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "贡献榜.png"; sourceTree = "<group>"; };
+		1839C61FA3D4BFDD6A6FAD8D51AF0479 /* KSYMoviePlayerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KSYMoviePlayerController.h; sourceTree = "<group>"; };
 		1F431256D942F1A5A3525841EF58AE67 /* Pods-BZKSYPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BZKSYPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		204D6798756032D68F5EF6686DC412B2 /* ResourceBundle-BZKSYPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BZKSYPlayer-Info.plist"; sourceTree = "<group>"; };
 		25B2ED0E7EBA14C7A5740E8AAF7A7FFD /* BZKSYPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BZKSYPlayer-dummy.m"; sourceTree = "<group>"; };
 		25BD7506FD5739A700F06F7A7CF0B029 /* Pods-BZKSYPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BZKSYPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		27282DAD876D127FE7B7576FD515E1D6 /* Pods-BZKSYPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BZKSYPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2C2D9CAEE4F96F2B4F14BAA0D4F98681 /* KSYMoviePlayerDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KSYMoviePlayerDefines.h; sourceTree = "<group>"; };
 		2E5C20AD46769EB922BDFE44977A4481 /* Pods-BZKSYPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BZKSYPlayer_Tests.modulemap"; sourceTree = "<group>"; };
 		347C9F2BB903ADD885BD97373B12D995 /* BZKSYPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BZKSYPlayer.modulemap; sourceTree = "<group>"; };
 		36DF8D9827B6B82B7820B703F9111978 /* Pods-BZKSYPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BZKSYPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3725D90A64D7A9D7611AAEA645640803 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A97A8FC198BDFC359D108FBD583893B /* KSYMediaInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KSYMediaInfo.h; sourceTree = "<group>"; };
 		3B37A9F2827A7678421E709068B156D6 /* Pods-BZKSYPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BZKSYPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3C2CAD6B3A8E2438C7E169F55C199DCA /* BZTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BZTest.m; sourceTree = "<group>"; };
 		40428B9D19A173AD714B67D4CD987095 /* Pods_BZKSYPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BZKSYPlayer_Example.framework; path = "Pods-BZKSYPlayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48093F6838BFE5C7F05B40BBFC8599D7 /* Pods-BZKSYPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BZKSYPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		557CE93B32BA23BD96722B33FBE4255A /* Pods-BZKSYPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BZKSYPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -59,15 +70,18 @@
 		6504876BAEA24941737AF5B81E0BD6D6 /* Pods-BZKSYPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BZKSYPlayer_Example.modulemap"; sourceTree = "<group>"; };
 		6BA6C8127BC0D9DD1D793C8F608866F6 /* Pods_BZKSYPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BZKSYPlayer_Tests.framework; path = "Pods-BZKSYPlayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB3BDEFB4093E595C2786CCE5BBAEEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71E7EFBC9EBC005C6E6237BD58E18D21 /* BZTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BZTest.m; sourceTree = "<group>"; };
 		78D0201038E6569E548E704E57D38BDF /* Pods-BZKSYPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BZKSYPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8A030E0CE3A02A89F934A5EF4BEA181A /* Pods-BZKSYPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BZKSYPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
 		8CE78358FBD627BBFAB268CBFF68BCCA /* BZKSYPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BZKSYPlayer-prefix.pch"; sourceTree = "<group>"; };
 		9149FC6F43059301CECEF15E25723C30 /* Pods-BZKSYPlayer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BZKSYPlayer_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		91D657048E54F5EED63C63FE97319258 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE1303F57863D6BF60BF5FC33A89547B /* BZTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BZTest.h; sourceTree = "<group>"; };
+		96721D19549D8BBA35820D8CE8CBD2BF /* BZTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BZTest.h; sourceTree = "<group>"; };
+		9A62BFBFE53512C96EC4C7B044B9D0C9 /* KSYMediaInfoProber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KSYMediaInfoProber.h; sourceTree = "<group>"; };
+		A6EEFD69E12A7EB10C879385C752C964 /* KSYMediaPlayback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KSYMediaPlayback.h; sourceTree = "<group>"; };
+		B4276786AD11D867DC42183194EF94A7 /* KSYQosInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KSYQosInfo.h; sourceTree = "<group>"; };
 		C38B147225528EA5882D61458CE67C04 /* KSYMediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KSYMediaPlayer.framework; path = BZKSYPlayer/Classes/KSYMediaPlayer.framework; sourceTree = "<group>"; };
+		C6D10B3D56E3A4118580E7DBF1B5D1B8 /* KSYMediaPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KSYMediaPlayer.h; sourceTree = "<group>"; };
 		CAFB51C792BAD7800D77BC636AEEF77E /* Pods-BZKSYPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BZKSYPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D233189A168842BB448D18A01AD4FF80 /* Pods-BZKSYPlayer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BZKSYPlayer_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -80,13 +94,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		16FF75F5462E6671D6CD43303159F986 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6DCE0FE0803DFAC6DE0EF1AA05B6C710 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,11 +110,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE68278EFA37550DB701D224F84E2783 /* Frameworks */ = {
+		A598ACF262DECA5AAECBC94C58538714 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B42A2B9B41BDEF6B8679C3FFE45B6278 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E42ABA950F9708BABC99A0AC16668A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FB0750272ECB36284A181CD3852434 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +172,15 @@
 			path = "Target Support Files/Pods-BZKSYPlayer_Tests";
 			sourceTree = "<group>";
 		};
+		30E570A09756E8F323ECAA9BA3D99DBF /* KSYMediaPlayer.framework */ = {
+			isa = PBXGroup;
+			children = (
+				516C0599984E9BF50C6EF54B88B74542 /* Headers */,
+			);
+			name = KSYMediaPlayer.framework;
+			path = KSYMediaPlayer.framework;
+			sourceTree = "<group>";
+		};
 		376DC4E7A95F0591C400844BBDB7C279 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,12 +190,38 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		516C0599984E9BF50C6EF54B88B74542 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				3A97A8FC198BDFC359D108FBD583893B /* KSYMediaInfo.h */,
+				9A62BFBFE53512C96EC4C7B044B9D0C9 /* KSYMediaInfoProber.h */,
+				A6EEFD69E12A7EB10C879385C752C964 /* KSYMediaPlayback.h */,
+				C6D10B3D56E3A4118580E7DBF1B5D1B8 /* KSYMediaPlayer.h */,
+				1839C61FA3D4BFDD6A6FAD8D51AF0479 /* KSYMoviePlayerController.h */,
+				2C2D9CAEE4F96F2B4F14BAA0D4F98681 /* KSYMoviePlayerDefines.h */,
+				B4276786AD11D867DC42183194EF94A7 /* KSYQosInfo.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
 		64B2E7CF11F54B2FA6ECAF67FFA23536 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
 				D6126D22246AC7A18A040DDBD3207A0F /* BZKSYPlayer */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		69FFAFADAAEC3355BF4E96E7CBCF3618 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				96721D19549D8BBA35820D8CE8CBD2BF /* BZTest.h */,
+				3C2CAD6B3A8E2438C7E169F55C199DCA /* BZTest.m */,
+				30E570A09756E8F323ECAA9BA3D99DBF /* KSYMediaPlayer.framework */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -220,20 +269,10 @@
 			path = BZKSYPlayer;
 			sourceTree = "<group>";
 		};
-		A66AD36261C104D95CA66D0AF609B4EB /* Classes */ = {
+		B186B00E087E4427C87DBE37B54783C9 /* BZKSYPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				AE1303F57863D6BF60BF5FC33A89547B /* BZTest.h */,
-				71E7EFBC9EBC005C6E6237BD58E18D21 /* BZTest.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		B34503F06E16486E96C260FCD79D1DD9 /* BZKSYPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				A66AD36261C104D95CA66D0AF609B4EB /* Classes */,
+				69FFAFADAAEC3355BF4E96E7CBCF3618 /* Classes */,
 			);
 			name = BZKSYPlayer;
 			path = BZKSYPlayer;
@@ -276,7 +315,7 @@
 		D6126D22246AC7A18A040DDBD3207A0F /* BZKSYPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				B34503F06E16486E96C260FCD79D1DD9 /* BZKSYPlayer */,
+				B186B00E087E4427C87DBE37B54783C9 /* BZKSYPlayer */,
 				9D046E88421EC6C8178706B92F0C3341 /* Frameworks */,
 				10B1105D10B7D7DCDA677C018C1F9CF5 /* Resources */,
 				C8EA911305001C9F7A92661DADE3FE20 /* Support Files */,
@@ -296,12 +335,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9354BC2872CB875F85A7929A238B7E7D /* Headers */ = {
+		CB57B4D4D2DEEB424010C4AC4AF263CA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				485DA14F364B72BDC37D830F4ABC0A7A /* BZKSYPlayer-umbrella.h in Headers */,
-				B0269836053237FA0A91F5C5110A783B /* BZTest.h in Headers */,
+				0B477EB4454F84786FF85C7116C37DFF /* BZKSYPlayer-umbrella.h in Headers */,
+				45B77F774CBD60DB16CFB2E258150235 /* BZTest.h in Headers */,
+				71FD1D800D27BB29C5DB54E59D43BDC0 /* KSYMediaInfo.h in Headers */,
+				80A29C73698150AB55A33EDE7160D89D /* KSYMediaInfoProber.h in Headers */,
+				F3AF6196E093BA59B64CF64BB8DAC3C8 /* KSYMediaPlayback.h in Headers */,
+				BF4205C6B1B8067609D5F51286D8381B /* KSYMediaPlayer.h in Headers */,
+				E3649D9B70F642402B9F2C5FA60DF39C /* KSYMoviePlayerController.h in Headers */,
+				9CFBEA9D1E1B6E03C926B9A838D3BC02 /* KSYMoviePlayerDefines.h in Headers */,
+				BE00589AE8F3979691FA568E3E6C25CD /* KSYQosInfo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,32 +362,32 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		02D3B1353337586FD581D20EF6CA0837 /* BZKSYPlayer */ = {
+		7F3014265A9B7FEFD8CA21FEC8C8088C /* BZKSYPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58C93251B33C4A2019D56161EC44EDCB /* Build configuration list for PBXNativeTarget "BZKSYPlayer" */;
+			buildConfigurationList = EF4985A125D89AC6D9AA2D53F4D97822 /* Build configuration list for PBXNativeTarget "BZKSYPlayer" */;
 			buildPhases = (
-				9882A164F53D9BE29BA21BEBEF8DF44F /* Sources */,
-				FE68278EFA37550DB701D224F84E2783 /* Frameworks */,
-				92EE0CE5057CBEA43119F8C601674E7E /* Resources */,
-				9354BC2872CB875F85A7929A238B7E7D /* Headers */,
+				2CFB91464DE70CAC5D36F1C01412C371 /* Sources */,
+				F4E42ABA950F9708BABC99A0AC16668A /* Frameworks */,
+				C20E59D118467767E31E8A8848491C1E /* Resources */,
+				CB57B4D4D2DEEB424010C4AC4AF263CA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3E68C0239273322ED004F0F88BF1A82B /* PBXTargetDependency */,
+				D86633275698D529986BDA3CF3F2DE82 /* PBXTargetDependency */,
 			);
 			name = BZKSYPlayer;
 			productName = BZKSYPlayer;
 			productReference = EFF3143F251EF1F3FFAA480CE27FFBE4 /* BZKSYPlayer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		264525CB2E6298A398E3B08F9FD1C398 /* BZKSYPlayer-BZKSYPlayer */ = {
+		D24F5CB952BC3FC25FBBCE0C8E09DAD9 /* BZKSYPlayer-BZKSYPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F4F95ACAF58BE066827E9505833377B /* Build configuration list for PBXNativeTarget "BZKSYPlayer-BZKSYPlayer" */;
+			buildConfigurationList = BA8ED41E3287DA6CB822EB7BFD047D0E /* Build configuration list for PBXNativeTarget "BZKSYPlayer-BZKSYPlayer" */;
 			buildPhases = (
-				94ED09F6F468810E1B777B899D1BAE07 /* Sources */,
-				16FF75F5462E6671D6CD43303159F986 /* Frameworks */,
-				18F500DCF155115D4588A846C78463F5 /* Resources */,
+				3688621F70D0F7ABA08CA5E17B8A09DF /* Sources */,
+				A598ACF262DECA5AAECBC94C58538714 /* Frameworks */,
+				53165816748475096ABA2CDC9DE65F9C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -408,8 +454,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				02D3B1353337586FD581D20EF6CA0837 /* BZKSYPlayer */,
-				264525CB2E6298A398E3B08F9FD1C398 /* BZKSYPlayer-BZKSYPlayer */,
+				7F3014265A9B7FEFD8CA21FEC8C8088C /* BZKSYPlayer */,
+				D24F5CB952BC3FC25FBBCE0C8E09DAD9 /* BZKSYPlayer-BZKSYPlayer */,
 				F0B46D15E89AC5B233ECFB71A88E5783 /* Pods-BZKSYPlayer_Example */,
 				E8DDC1668B46F8AA2F9714393544557F /* Pods-BZKSYPlayer_Tests */,
 			);
@@ -417,46 +463,46 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18F500DCF155115D4588A846C78463F5 /* Resources */ = {
+		53165816748475096ABA2CDC9DE65F9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71ECE377A282A2B1356456060747DF88 /* 贡献榜.png in Resources */,
+				08CF9CFC049D12DF28E07124489B844C /* 贡献榜.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92EE0CE5057CBEA43119F8C601674E7E /* Resources */ = {
+		C20E59D118467767E31E8A8848491C1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				642CE3832162C318B3C141B24EB9D79F /* BZKSYPlayer.bundle in Resources */,
+				4F08F17F910A5FA8FEBD80C1D5BB335D /* BZKSYPlayer.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2CFB91464DE70CAC5D36F1C01412C371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878C402751782AA0BF458F555B69DECD /* BZKSYPlayer-dummy.m in Sources */,
+				0CBBC736C1CADDF0B3FBF330DE878A4D /* BZTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3688621F70D0F7ABA08CA5E17B8A09DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6F01686407FD0A780CE79D4C0E098389 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				291F2F8524041521C88CB54B94A034EF /* Pods-BZKSYPlayer_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94ED09F6F468810E1B777B899D1BAE07 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9882A164F53D9BE29BA21BEBEF8DF44F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				003F447C3AC2CAE97D75046D4F22CFFF /* BZKSYPlayer-dummy.m in Sources */,
-				FB3462ACE46D81244BAAEE573746EF0F /* BZTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,17 +517,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3E68C0239273322ED004F0F88BF1A82B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "BZKSYPlayer-BZKSYPlayer";
-			target = 264525CB2E6298A398E3B08F9FD1C398 /* BZKSYPlayer-BZKSYPlayer */;
-			targetProxy = A9245675BA99F2432181CF1465907C15 /* PBXContainerItemProxy */;
-		};
 		78CE6D01BA7C1ACA732FDBC6B7641343 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BZKSYPlayer;
-			target = 02D3B1353337586FD581D20EF6CA0837 /* BZKSYPlayer */;
+			target = 7F3014265A9B7FEFD8CA21FEC8C8088C /* BZKSYPlayer */;
 			targetProxy = 864DC6A6D4658EC521648730DB165E92 /* PBXContainerItemProxy */;
+		};
+		D86633275698D529986BDA3CF3F2DE82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BZKSYPlayer-BZKSYPlayer";
+			target = D24F5CB952BC3FC25FBBCE0C8E09DAD9 /* BZKSYPlayer-BZKSYPlayer */;
+			targetProxy = 05F5CDF3790D8535A7644B6A46CB01B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -530,34 +576,20 @@
 			};
 			name = Debug;
 		};
-		27808381597D127FE1605FD24ECB560E /* Release */ = {
+		0161B0CB4492818C316CAB752EA9BD02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F35718FB7E02667150AA2A8A1485429F /* BZKSYPlayer.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BZKSYPlayer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BZKSYPlayer/BZKSYPlayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BZKSYPlayer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = "Target Support Files/BZKSYPlayer/ResourceBundle-BZKSYPlayer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BZKSYPlayer/BZKSYPlayer.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = BZKSYPlayer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -671,37 +703,6 @@
 			};
 			name = Debug;
 		};
-		50B4885F4C705C8C3D1001DDC4AEB808 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F35718FB7E02667150AA2A8A1485429F /* BZKSYPlayer.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BZKSYPlayer/BZKSYPlayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BZKSYPlayer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BZKSYPlayer/BZKSYPlayer.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = BZKSYPlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		634606FB49C876B5E2B3845A332B119F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 78D0201038E6569E548E704E57D38BDF /* Pods-BZKSYPlayer_Tests.release.xcconfig */;
@@ -737,24 +738,38 @@
 			};
 			name = Release;
 		};
-		74AF8BBC827E8FB1F2B9DA1D43A70828 /* Release */ = {
+		6A534C6719BA94977ED5F8F98758AF95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F35718FB7E02667150AA2A8A1485429F /* BZKSYPlayer.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BZKSYPlayer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/BZKSYPlayer/ResourceBundle-BZKSYPlayer-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/BZKSYPlayer/BZKSYPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BZKSYPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BZKSYPlayer/BZKSYPlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = BZKSYPlayer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		896FF2E00D86AD98C3CCDC59ED9A341B /* Debug */ = {
+		88CCE9C1AA4A8DBA59C1A149AB77289E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F35718FB7E02667150AA2A8A1485429F /* BZKSYPlayer.xcconfig */;
 			buildSettings = {
@@ -770,6 +785,37 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
+		};
+		C093664599BC8CFA27822C1F0441F88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35718FB7E02667150AA2A8A1485429F /* BZKSYPlayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BZKSYPlayer/BZKSYPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BZKSYPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BZKSYPlayer/BZKSYPlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BZKSYPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		C6B6EA83F95CD78193E173E1ADF267E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -827,15 +873,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58C93251B33C4A2019D56161EC44EDCB /* Build configuration list for PBXNativeTarget "BZKSYPlayer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				50B4885F4C705C8C3D1001DDC4AEB808 /* Debug */,
-				27808381597D127FE1605FD24ECB560E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		5ACD177470C1E51B5A45BF5554569660 /* Build configuration list for PBXNativeTarget "Pods-BZKSYPlayer_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -845,11 +882,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F4F95ACAF58BE066827E9505833377B /* Build configuration list for PBXNativeTarget "BZKSYPlayer-BZKSYPlayer" */ = {
+		BA8ED41E3287DA6CB822EB7BFD047D0E /* Build configuration list for PBXNativeTarget "BZKSYPlayer-BZKSYPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				896FF2E00D86AD98C3CCDC59ED9A341B /* Debug */,
-				74AF8BBC827E8FB1F2B9DA1D43A70828 /* Release */,
+				88CCE9C1AA4A8DBA59C1A149AB77289E /* Debug */,
+				0161B0CB4492818C316CAB752EA9BD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4985A125D89AC6D9AA2D53F4D97822 /* Build configuration list for PBXNativeTarget "BZKSYPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A534C6719BA94977ED5F8F98758AF95 /* Debug */,
+				C093664599BC8CFA27822C1F0441F88B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

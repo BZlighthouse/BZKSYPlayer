@@ -7,7 +7,9 @@
 //
 
 #import "BZTest.h"
-#import "KSYMediaPlayer.framework/Headers/KSYMoviePlayerController.h"
+//#import "KSYMediaPlayer.framework/Headers/KSYMediaPlayer.h"
+#import "KSYMediaPlayer.h"
+
 @implementation BZTest
 + (void)test
 {

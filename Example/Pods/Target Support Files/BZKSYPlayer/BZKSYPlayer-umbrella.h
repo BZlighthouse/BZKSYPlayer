@@ -11,6 +11,13 @@
 #endif
 
 #import "BZTest.h"
+#import "KSYMediaInfo.h"
+#import "KSYMediaInfoProber.h"
+#import "KSYMediaPlayback.h"
+#import "KSYMediaPlayer.h"
+#import "KSYMoviePlayerController.h"
+#import "KSYMoviePlayerDefines.h"
+#import "KSYQosInfo.h"
 
 FOUNDATION_EXPORT double BZKSYPlayerVersionNumber;
 FOUNDATION_EXPORT const unsigned char BZKSYPlayerVersionString[];

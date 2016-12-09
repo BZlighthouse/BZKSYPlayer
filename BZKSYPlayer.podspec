@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BZKSYPlayer'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = '测试金山云播放器.'
 
 
@@ -17,7 +17,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BZKSYPlayer/Classes/*.{h,m}'
+  s.source_files = 'BZKSYPlayer/Classes/*.{h,m}', 'BZKSYPlayer/Classes/KSYMediaPlayer.framework/Headers/*.h'
   
    s.resource_bundles = {
      'BZKSYPlayer' => ['BZKSYPlayer/Assets/*.png']
