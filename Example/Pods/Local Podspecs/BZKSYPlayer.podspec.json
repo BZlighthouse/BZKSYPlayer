@@ -1,9 +1,9 @@
 {
   "name": "BZKSYPlayer",
-  "version": "0.1.0",
-  "summary": "A short description of BZKSYPlayer.",
+  "version": "0.1.1",
+  "summary": "测试金山云播放器.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/BZKSYPlayer",
+  "homepage": "https://github.com/BZlighthouse/BZKSYPlayer",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "/Users/zhoubing/Desktop/BZKSYPlayer/BZKSYPlayer",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -24,13 +24,15 @@
       "BZKSYPlayer/Assets/*.png"
     ]
   },
-  "vendored_frameworks": [
-    "BZKSYPlayer/Classes/KSYMediaPlayer.framework"
-  ],
+  "vendored_frameworks": "BZKSYPlayer/Classes/KSYMediaPlayer.framework",
   "user_target_xcconfig": {
     "OTHER_LDFLAGS": [
       "-lObjC",
       "-all_load"
     ]
-  }
+  },
+  "libraries": [
+    "z",
+    "stdc++.6"
+  ]
 }
