@@ -1,31 +1,15 @@
-
-
 Pod::Spec.new do |s|
-  s.name             = 'BZKSYPlayer'
-  s.version          = '0.1.4'
-  s.summary          = '测试金山云播放器.'
+  s.name = "BZKSYPlayer"
+  s.version = "0.1.5"
+  s.summary = "\u{6d4b}\u{8bd5}\u{91d1}\u{5c71}\u{4e91}\u{64ad}\u{653e}\u{5668}."
+  s.license = {"type"=>"MIT", "file"=>"LICENSE"}
+  s.authors = {"BZlighthouse"=>"282066546@qq.com"}
+  s.homepage = "https://github.com/BZlighthouse/BZKSYPlayer"
+  s.description = "TODO: Add long description of the pod here."
+  s.libraries = ["z", "stdc++.6"]
+  s.source = { :path => '.' }
 
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/BZlighthouse/BZKSYPlayer'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'BZlighthouse' => '282066546@qq.com' }
-  s.source           = { :git => '/Users/zhoubing/Desktop/BZKSYPlayer/BZKSYPlayer', :tag => s.version.to_s }
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'BZKSYPlayer/Classes/*.{h,m}', 'BZKSYPlayer/Classes/KSYMediaPlayer.framework/Headers/*.h'
-  
-   s.resource_bundles = {
-     'BZKSYPlayer' => ['BZKSYPlayer/Assets/*.png']
-   }
-  s.vendored_frameworks = 'BZKSYPlayer/Classes/KSYMediaPlayer.framework'
-  s.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lObjC','-all_load']}
-  s.library = 'z', 'stdc++.6'
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.deployment_target    = '8.0'
+  s.ios.vendored_framework   = 'ios/BZKSYPlayer.framework'
+  s.source           = { :git => 'https://github.com/BZlighthouse/BZKSYPlayer.git', :tag => s.version}
 end
